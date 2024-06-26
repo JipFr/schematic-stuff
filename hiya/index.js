@@ -18,7 +18,7 @@ const generators = [
 	// require("./generators/image-to-block"),
 	// require("./generators/text-img"),
 	// require("./generators/gif-display"),
-	require("./generators/3dmap-displayblocks"),
+	// require("./generators/3dmap-displayblocks"),
 ];
 
 async function main() {
