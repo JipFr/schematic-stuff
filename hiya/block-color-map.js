@@ -13,6 +13,7 @@ console.log(files);
 		files.map(async (path) => {
 			if (
 				path.includes("_top") ||
+				path.includes("shulker") ||
 				path.includes("_bottom") ||
 				path.includes("_front") ||
 				path.includes("_back") ||
@@ -28,6 +29,13 @@ console.log(files);
 				path.includes("_on") ||
 				path.includes("_bloom") ||
 				path.includes("_corner") ||
+				path.includes("structure_block") ||
+				path.includes("_powered") ||
+				path.includes("_north") ||
+				path.includes("_south") ||
+				path.includes("_east") ||
+				path.includes("_west") ||
+				path.includes("lava") ||
 				path.includes("_off") ||
 				path.includes("_occupied") ||
 				path.includes("_lock") ||
